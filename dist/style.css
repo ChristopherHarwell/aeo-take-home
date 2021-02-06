@@ -1,0 +1,198 @@
+body {
+  margin: 5%;
+}
+
+.section1 {
+  /*   display: flex; */
+  /*   flex-direction: column; */
+  /*   margin: 0 30% 0 40%; */
+  border: solid LightGrey 1px;
+}
+
+.h2 {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.customer_headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-update {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.order-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20%;
+}
+
+.section2 {
+  margin-top: 10%;
+  border-bottom: solid LightGrey 1px;
+  padding-bottom: 10%;
+}
+.num-items-shipped {
+  /*   margin-top: 5%; */
+  font-weight: bold;
+  border-bottom: solid black 3px;
+}
+
+.shipping-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-top: 10%;
+}
+
+.track-order-button {
+  padding: 15px 100px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.section3 {
+  padding-bottom: 8%;
+  border-bottom: solid 1px LightGrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.receipt-items {
+  margin: 8% 10%;
+  display: flex;
+}
+
+.receipt-items,
+.jeggings {
+  margin-bottom: 0px;
+}
+
+.jeggings-text {
+  font-weight: bold;
+}
+.jeggings {
+  width: 15rem;
+  height: 20rem;
+}
+.bralette {
+  width: 15rem;
+}
+.jeggings-price-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.jeggings-price {
+  text-decoration: line-through;
+  flex-direction: row;
+}
+.bralette-price {
+  flex-direction: row;
+}
+.jeggings-price2 {
+  color: red;
+  text-decoration: none;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-details-p {
+  margin-top: 0rem;
+}
+
+.receipt-items-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-status {
+  display: flex;
+  flex direction: column;
+}
+
+.order-prep {
+  margin-top: 2rem;
+}
+
+
+.eta {
+  
+}
+
+.t-shirt {
+    width: 15rem;
+  height: 20rem;
+}
+
+.section3, t-shirt-container {
+  border-top: solid 1px LightGrey;
+}
+
+.num-items-shipped, .order-summary {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.summary-container {
+  display: flex;
+  flex-directiom: column;
+  justify-content: space-between;
+  border-bottom: 1px solid LightGrey;
+}
+
+.order-total {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section4-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid LightGrey;
+  padding: 3rem
+}
+
+.shipping-address {
+    display: flex;
+  flex-direction: column;
+    padding-right: 2rem;
+
+}
+
+.address-p {
+  margin: 0rem;
+}
+
+.returns {
+  font-weight: bold;
+};
+
+.shipping-address,.label {
+text-decoration: underline !important;
+text-decoration-thickness 1px !important;
+text-underline-position: under !important;
+}
